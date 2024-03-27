@@ -9,9 +9,11 @@ html,
 body {
     margin: 0;
     font-size: 100%;
-    background: #fff;
+    background: #a8b9ab; /* Change the background color */
     font-family: 'Josefin Sans', sans-serif;
     scroll-behavior: smooth;
+    border-top: 20px solid #333; /* Add a border at the top */
+    border-bottom: 20px solid #333; /* Add a border at the bottom */
 }
 
 body a {
@@ -21,13 +23,24 @@ body a {
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
+    color: #333; /* Change the link color */
+    padding: 5px 10px; /* Add padding to the links */
+    border-radius: 5px; /* Add rounded corners to the links */
+    background-color: #fff; /* Change the background color of links */
 }
+
+body a:hover {
+    background-color: #333; /* Change the background color of links on hover */
+    color: #fff; /* Change the text color of links on hover */
+}
+
 
 a:hover {
     text-decoration: none;
     opacity: 0.8;
 }
 
+/* Modify button and input styles */
 input[type="button"],
 input[type="submit"],
 input[type="text"],
@@ -39,8 +52,40 @@ input[type="search"] {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
     font-family: 'Josefin Sans', sans-serif;
-
+    /* Add your custom styles here */
+    padding: 10px 20px; /* Adjust padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    background-color: #333; /* Change background color */
+    color: #fff; /* Change text color */
+    cursor: pointer; /* Change cursor to pointer */
+    margin-top: 10px; /* Adjust top margin */
 }
+
+/* Modify input field sizes */
+input[type="text"],
+input[type="email"],
+input[type="search"] {
+    width: 250px; /* Adjust width */
+    height: 40px; /* Adjust height */
+}
+
+/* Modify button sizes */
+input[type="button"],
+input[type="submit"] {
+    width: 150px; /* Adjust width */
+    height: 40px; /* Adjust height */
+}
+
+/* Add hover effect */
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="search"]:hover {
+    background-color: #a86a6a; /* Change background color on hover */
+}
+
 
 h1,
 h2,
@@ -557,7 +602,7 @@ a.reqe-button {
 }
 
 .main-content.inner {
-    background: url(../images/banner.jpg) no-repeat center;
+    background: url(../images/background.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;

@@ -33,7 +33,7 @@ public partial class AuthorizeUser : System.Web.UI.Page
         {
             int x = Convert.ToInt32(e.CommandArgument);
             GridViewRow rows = GridView1.Rows[x];
-
+           
             string uname = rows.Cells[0].Text;
             string email = rows.Cells[3].Text;
             Random rm = new Random();
@@ -81,7 +81,7 @@ public partial class AuthorizeUser : System.Web.UI.Page
 
         try
         {
-            SmtpClient client = new SmtpClient("smtp.gmail.com");
+            SmtpClient client = new SmtpClient("smtp.gmail.com",587);
             client.EnableSsl = true;
             client.UseDefaultCredentials = false;
             client.Credentials = loginInformation;

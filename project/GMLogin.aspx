@@ -140,10 +140,11 @@
                     &nbsp;</td>
                 <td style="width: 35px">
                     &nbsp;</td>
-                <td style="width: 302px">
-                    <asp:Button ID="Button1" runat="server" CssClass="read-more btn" Text="Login" 
-                        Width="302px" onclick="Button1_Click" />
-                </td>
+                    <td style="width: 302px">
+                        <asp:Button ID="Button1" runat="server" CssClass="read-more btn" Text="Login" 
+                            Width="302px" onclick="Button1_Click" />
+                    </td>
+                    
                 <td>
                     &nbsp;</td>
             </tr>

@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Group data Sharing</title>
+    <title>Amrita Final project</title>
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
@@ -21,12 +21,14 @@
     </script>
     <!-- //Meta tag Keywords -->
     <!-- Custom-Files -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+
     <!-- Bootstrap-Core-CSS -->
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!--<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />-->
     <!-- Style-CSS -->
     <!-- font-awesome-icons -->
     <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
     <!-- //font-awesome-icons -->
     <!-- /Fonts -->
     <link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
@@ -35,51 +37,60 @@
 
 <body>
     <!-- mian-content -->
-    <div class="main-w3layouts-header-sec">
-        <!-- header -->
-        <header class="header-w3pvt">
-            <div class="container-fluid inner-sec-w3ls">
-                <div class="header d-lg-flex justify-content-between align-items-center">
-                    <!-- logo -->
-                    <h1 class="logo">
-                        <a href="#">Group Data Sharing
-                        </a>
-                    </h1>
-                    <!-- //logo -->
-                    <!-- nav -->
-                    <div class="nav_w3ls">
-                        <nav>
-                            <label for="drop" class="toggle toogle-2">Menu</label>
-                            <input type="checkbox" id="drop" />
-                            <ul class="menu">
-                                <li class="active ml-0"><a href="#">Home</a></li>                               
-                                <li><a href="GMLogin.aspx">Group Manager</a></li>                                
-                                <li><a href="UserLogin.aspx">Users</a></li>
-                                <li><a href="Cloud.aspx">Cloud</a></li>                                
-                            </ul>
-                        </nav>
-                    </div>
-                    <!-- //nav -->
-                </div>
-            </div>
-        </header>
-    </div>
-    <!-- //header -->
-    <div class="main-content" id="home">
-        <div class="wthree-overlay">
-            <!-- //header -->
-            <div class="container">
-                <!-- /banner -->
-                <div class="banner-info text-center">
-                    <h3>Anonymous and UnTraceable Group Data
-Sharing in Cloud Computing</h3>
-                    
-                </div>
 
+        <!-- header -->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-5" href="#">GROUP DATA SHARING</a>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ms-auto mb-10 mb-lg-3">
+                        <li class="nav-item mx-2"> <!-- Added mx-2 for horizontal spacing -->
+                            <a class="nav-link active fs-5" aria-current="page" href="home.aspx">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active fs-5" aria-current="page" href="GMLogin.aspx">Group Manager</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active fs-5" href="UserLogin.aspx">Users</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active fs-5" href="Cloud.aspx">Cloud</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                    </span>
+                </div>
             </div>
-            <!-- //banner -->
-        </div>
+        </nav>
+        
+        <!-- Add custom CSS for hover animation -->
+        <style>
+            .nav-item {
+                transition: transform 0.3s;
+            }
+        
+            .nav-item:hover {
+                transform: translateY(-3px); /* Move the element up by 3px on hover */
+            }
+        </style>
+        
+        
+                    <!-- //nav -->
+
+
+    <!-- //header -->
+    <div class="p-5 text-center bg-image rounded-3" style="
+    background-image:url(https://static.vecteezy.com/system/resources/thumbnails/006/198/869/small/internet-security-protection-from-hacker-attacking-cyber-attack-and-network-security-concept-free-photo.jpg);height: 500px;">
+    <div>
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="text-white">
+        <h4 class="mb-3">data sharing scheme in cloud computation with privacy protection</h4>
+      </div>
     </div>
+    </div>
+    </div>
+   
 
     <!--// mian-content -->
     <!-- /grids-content -->
@@ -111,6 +122,10 @@ efficient for group data sharing in cloud computing.</p>
             </div>
         </div>
     </section>
+
+    <!-- Hero -->
+
+<!-- Hero -->
     <!-- //grids-content -->
    
    
@@ -119,6 +134,42 @@ efficient for group data sharing in cloud computing.</p>
         <p>&nbsp;</p>
 
     </div>
+
+
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Hemanth Pulakandam</h5>
+              <p>
+               Department of Computer Science and Engineering in cyber security , Amrita School of Computing,  Amrita Vishwa Vidyapeetham
+              </p>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Velaga Sohith</h5>
+              <p>
+                Department of Computer Science and Engineering in cyber security , Amrita School of Computing,  Amrita Vishwa Vidyapeetham
+              </p>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          <p>Hemanth and Sohith</p>
+         
+        </div>
+        <!-- Copyright -->
+      </footer>
     <!-- //copyright -->
 
 

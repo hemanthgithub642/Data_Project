@@ -59,11 +59,16 @@ public partial class UserRequests : System.Web.UI.Page
         try
         {
             SmtpClient client = new SmtpClient("smtp.gmail.com");
+            client.Port = 587;
             client.EnableSsl = true;
             client.UseDefaultCredentials = false;
             client.Credentials = loginInformation;
             client.Send(msg);
         }
-        catch { }
+        catch (Exception ex)
+        {
+            // Log the exception or handle it appropriately
+            Response.Write("<script>alert('Error occurred: " + ex.Message + "')</script>");
+        }
     }
 }
